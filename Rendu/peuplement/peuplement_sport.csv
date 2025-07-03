@@ -1,0 +1,46 @@
+ID_sport,Nom_sport,Niveau
+1,Musculation,Débutant
+2,Crossfit,Débutant
+3,Yoga,Débutant
+4,Pilates,Débutant
+5,Boxe,Débutant
+6,Spinning,Débutant
+7,Zumba,Débutant
+8,Body combat,Débutant
+9,Cardio training,Débutant
+10,TRX,Débutant
+11,HIIT,Débutant
+12,Stretching,Débutant
+13,Fitness,Débutant
+14,Step,Débutant
+15,Circuit training,Débutant
+16,Musculation,Intermediaire
+17,Crossfit,Intermediaire
+18,Yoga,Intermediaire
+19,Pilates,Intermediaire
+20,Boxe,Intermediaire
+21,Spinning,Intermediaire
+22,Zumba,Intermediaire
+23,Body combat,Intermediaire
+24,Cardio training,Intermediaire
+25,TRX,Intermediaire
+26,HIIT,Intermediaire
+27,Stretching,Intermediaire
+28,Fitness,Intermediaire
+29,Step,Intermediaire
+30,Circuit training,Intermediaire
+31,Musculation,Avancé
+32,Crossfit,Avancé
+33,Yoga,Avancé
+34,Pilates,Avancé
+35,Boxe,Avancé
+36,Spinning,Avancé
+37,Zumba,Avancé
+38,Body combat,Avancé
+39,Cardio training,Avancé
+40,TRX,Avancé
+41,HIIT,Avancé
+42,Stretching,Avancé
+43,Fitness,Avancé
+44,Step,Avancé
+45,Circuit training,Avancé

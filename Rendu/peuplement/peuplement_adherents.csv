@@ -1,0 +1,101 @@
+ID_adhérent,nom,prénom,date_naissance,email,telephone,numéro_rue,nom_rue,CP,ville
+100,Hamon,Adrien,1978-04-20,adrien.hamon@exemple.fr,0600000000,43,boulevard de Barbara Liskov,75006,Paris
+99,Diallo,Aimé,1983-09-19,aimé.diallo@exemple.fr,0600000001,32,passage de Tim Berners-Lee,75019,Paris
+98,Olivier,Emmanuel,1975-07-20,emmanuel.olivier@exemple.fr,0600000002,60,rue de John von Neumann,75019,Paris
+97,Albert,Claire,1994-07-04,claire.albert@exemple.fr,0600000003,57,passage de Tim Berners-Lee,75008,Paris
+96,Blanchet,Richard,1953-09-27,richard.blanchet@exemple.fr,0600000004,28,avenue de Grace Hopper,75013,Paris
+95,Delorme,Thomas,1973-08-27,thomas.delorme@exemple.fr,0600000005,33,rue de Ada Lovelace,75004,Paris
+94,Raymond,Clémence,1998-12-25,clémence.raymond@exemple.fr,0600000006,7,rue de Seymour Cray,75001,Paris
+93,Humbert,Audrey,1969-02-03,audrey.humbert@exemple.fr,0600000007,61,passage de Tim Berners-Lee,75008,Paris
+92,Rolland,Gérard,1954-04-06,gérard.rolland@exemple.fr,0600000008,18,avenue de Ken Thompson,75012,Paris
+91,Leclerc,Matthieu,1939-05-07,matthieu.leclerc@exemple.fr,0600000009,5,place de Jean Bartik,75015,Paris
+90,Guillet,Franck,2002-02-10,franck.guillet@exemple.fr,0600000010,5,rue de John von Neumann,75015,Paris
+89,De Sousa,Arnaude,2003-01-26,arnaude.de sousa@exemple.fr,0600000011,83,quai de Vint Cerf,75017,Paris
+88,Roger,Gilbert,1953-01-19,gilbert.roger@exemple.fr,0600000012,75,boulevard de Barbara Liskov,75002,Paris
+87,Alves,Antoinette,1999-04-09,antoinette.alves@exemple.fr,0600000013,19,rue de John von Neumann,75007,Paris
+86,Maury,Valentine,1983-05-01,valentine.maury@exemple.fr,0600000014,66,rue de Ada Lovelace,75013,Paris
+85,Besnard,Joséphine,1985-07-07,joséphine.besnard@exemple.fr,0600000015,99,place de Jean Bartik,75011,Paris
+84,Sauvage,Tristan,1973-11-22,tristan.sauvage@exemple.fr,0600000016,69,place de Jean Bartik,75001,Paris
+83,Andre,Nathalie,1961-09-23,nathalie.andre@exemple.fr,0600000017,61,cours de Claude Shannon,75015,Paris
+82,Fischer,Claude,1969-06-16,claude.fischer@exemple.fr,0600000018,27,avenue de John McCarthy,75017,Paris
+81,Maillard,Odette,1971-01-19,odette.maillard@exemple.fr,0600000019,15,boulevard de Barbara Liskov,75007,Paris
+80,Durand,Emmanuelle,1996-05-12,emmanuelle.durand@exemple.fr,0600000020,67,rue de Ada Lovelace,75019,Paris
+79,Adam,Françoise,1947-03-13,françoise.adam@exemple.fr,0600000021,41,avenue de Grace Hopper,75002,Paris
+78,Barthelemy,Édith,1945-08-29,édith.barthelemy@exemple.fr,0600000022,34,place de Jean Bartik,75020,Paris
+77,Bruneau,Alex,1974-04-18,alex.bruneau@exemple.fr,0600000023,96,avenue de Grace Hopper,75003,Paris
+76,Laporte,Élisabeth,1993-08-29,élisabeth.laporte@exemple.fr,0600000024,1,avenue de John McCarthy,75009,Paris
+75,Renault,Auguste,1940-05-18,auguste.renault@exemple.fr,0600000025,72,rue de Richard Stallman,75011,Paris
+74,Vincent,Guillaume,2005-02-21,guillaume.vincent@exemple.fr,0600000026,79,boulevard de Barbara Liskov,75007,Paris
+73,Thierry,Bertrand,1989-04-27,bertrand.thierry@exemple.fr,0600000027,81,boulevard de Barbara Liskov,75004,Paris
+72,Marin,Daniel,1944-11-05,daniel.marin@exemple.fr,0600000028,79,chemin de Linus Torvalds,75015,Paris
+71,Courtois,Gabrielle,1944-12-01,gabrielle.courtois@exemple.fr,0600000029,80,allée de Bjarne Stroustrup,75011,Paris
+70,Charpentier,Pierre,2006-05-15,pierre.charpentier@exemple.fr,0600000030,64,impasse de Dennis Ritchie,75005,Paris
+69,Berthelot,Lucie,1978-11-25,lucie.berthelot@exemple.fr,0600000031,90,chemin de Linus Torvalds,75010,Paris
+68,Germain,Virginie,1939-10-18,virginie.germain@exemple.fr,0600000032,25,avenue de Grace Hopper,75012,Paris
+67,Berger,Franck,1993-06-18,franck.berger@exemple.fr,0600000033,22,rue de John von Neumann,75008,Paris
+66,Vallet,Margaux,1957-06-19,margaux.vallet@exemple.fr,0600000034,15,rue de Larry Page,75002,Paris
+65,Collin,Diane,1981-12-11,diane.collin@exemple.fr,0600000035,87,boulevard de Barbara Liskov,75009,Paris
+64,Tessier,Benjamin,2006-06-28,benjamin.tessier@exemple.fr,0600000036,72,rue de John von Neumann,75001,Paris
+63,Leduc,Édouard,1989-06-29,édouard.leduc@exemple.fr,0600000037,13,chemin de Linus Torvalds,75007,Paris
+62,Schneider,Aimé,1956-08-26,aimé.schneider@exemple.fr,0600000038,9,allée de Donald Knuth,75020,Paris
+61,Barbe,Zacharie,2001-03-26,zacharie.barbe@exemple.fr,0600000039,33,passage de Tim Berners-Lee,75007,Paris
+60,Maury,Claude,1972-09-19,claude.maury@exemple.fr,0600000040,15,rue de Seymour Cray,75003,Paris
+59,Texier,Nath,2003-08-30,nath.texier@exemple.fr,0600000041,11,rue de Larry Page,75015,Paris
+58,Imbert,Zacharie,1980-05-04,zacharie.imbert@exemple.fr,0600000042,51,rue de Richard Stallman,75003,Paris
+57,Buisson,Émilie,1959-07-23,émilie.buisson@exemple.fr,0600000043,7,boulevard de Brian Kernighan,75008,Paris
+56,Benard,Manon,1947-03-28,manon.benard@exemple.fr,0600000044,35,quai de Vint Cerf,75007,Paris
+55,Delannoy,Robert,1965-05-07,robert.delannoy@exemple.fr,0600000045,69,rue de Richard Stallman,75014,Paris
+54,Faure,Jérôme,1960-12-28,jérôme.faure@exemple.fr,0600000046,46,allée de Bjarne Stroustrup,75012,Paris
+53,Maillard,Arnaude,1957-10-12,arnaude.maillard@exemple.fr,0600000047,71,impasse de Dennis Ritchie,75010,Paris
+52,Camus,Stéphanie,1949-02-25,stéphanie.camus@exemple.fr,0600000048,33,allée de Bjarne Stroustrup,75002,Paris
+51,Normand,Zacharie,1958-03-16,zacharie.normand@exemple.fr,0600000049,9,rue de Larry Page,75013,Paris
+50,Guilbert,Anastasie,1973-11-30,anastasie.guilbert@exemple.fr,0600000050,51,chemin de Linus Torvalds,75012,Paris
+49,Robin,Yves,1975-02-26,yves.robin@exemple.fr,0600000051,25,quai de Vint Cerf,75012,Paris
+48,Alexandre,Georges,1957-02-28,georges.alexandre@exemple.fr,0600000052,21,place de Jean Bartik,75019,Paris
+47,Petit,Marc,2005-02-18,marc.petit@exemple.fr,0600000053,24,rue de Richard Stallman,75007,Paris
+46,Texier,Georges,1984-10-12,georges.texier@exemple.fr,0600000054,48,avenue de Ken Thompson,75004,Paris
+45,Guillon,André,1980-03-23,andré.guillon@exemple.fr,0600000055,44,avenue de Grace Hopper,75010,Paris
+44,Leduc,Robert,1985-02-26,robert.leduc@exemple.fr,0600000056,92,impasse de Dennis Ritchie,75003,Paris
+43,Roy,Élodie,1941-04-28,élodie.roy@exemple.fr,0600000057,19,allée de Donald Knuth,75007,Paris
+42,Millet,Noémi,1939-03-21,noémi.millet@exemple.fr,0600000058,64,cours de Claude Shannon,75015,Paris
+41,Poirier,Aurore,1947-02-10,aurore.poirier@exemple.fr,0600000059,17,impasse de Dennis Ritchie,75014,Paris
+40,Joly,Astrid,1982-11-08,astrid.joly@exemple.fr,0600000060,49,rue de Larry Page,75002,Paris
+39,Bertin,Alphonse,1968-08-22,alphonse.bertin@exemple.fr,0600000061,43,rue de Richard Stallman,75020,Paris
+38,Collet,Charlotte,1975-08-06,charlotte.collet@exemple.fr,0600000062,22,avenue de Ken Thompson,75005,Paris
+37,Pages,Étienne,1955-10-05,étienne.pages@exemple.fr,0600000063,36,boulevard de Brian Kernighan,75005,Paris
+36,Gautier,Nathalie,1998-08-23,nathalie.gautier@exemple.fr,0600000064,77,avenue de Ken Thompson,75019,Paris
+35,Morel,Céline,1999-01-24,céline.morel@exemple.fr,0600000065,44,rue de Richard Stallman,75003,Paris
+34,Lebreton,Suzanne,1972-11-15,suzanne.lebreton@exemple.fr,0600000066,87,quai de Vint Cerf,75020,Paris
+33,Lemaître,Isabelle,2005-01-17,isabelle.lemaître@exemple.fr,0600000067,81,rue d'Alan Turing,75011,Paris
+32,Renard,Philippine,1956-04-20,philippine.renard@exemple.fr,0600000068,4,quai de Vint Cerf,75016,Paris
+31,Durand,Diane,1992-10-06,diane.durand@exemple.fr,0600000069,7,place de Jean Bartik,75011,Paris
+30,Riou,Jacqueline,1937-09-14,jacqueline.riou@exemple.fr,0600000070,53,rue de John von Neumann,75001,Paris
+29,Chauvet,Joseph,1954-07-21,joseph.chauvet@exemple.fr,0600000071,1,boulevard de Barbara Liskov,75013,Paris
+28,Robert,Simone,1978-12-13,simone.robert@exemple.fr,0600000072,70,boulevard de Barbara Liskov,75001,Paris
+27,Devaux,Camille,1975-01-08,camille.devaux@exemple.fr,0600000073,49,boulevard de Margaret Hamilton,75018,Paris
+26,Cohen,Charlotte,1966-05-29,charlotte.cohen@exemple.fr,0600000074,62,rue d'Alan Turing,75010,Paris
+25,Maillard,Anaïs,1972-01-02,anaïs.maillard@exemple.fr,0600000075,24,rue d'Alan Turing,75009,Paris
+24,Langlois,Véronique,1966-02-15,véronique.langlois@exemple.fr,0600000076,81,rue d'Alan Turing,75002,Paris
+23,Laporte,Hugues,1977-07-31,hugues.laporte@exemple.fr,0600000077,24,rue de Ada Lovelace,75014,Paris
+22,Lemoine,Éric,2000-07-16,éric.lemoine@exemple.fr,0600000078,3,avenue de Ken Thompson,75020,Paris
+21,Roger,Tristan,1983-06-10,tristan.roger@exemple.fr,0600000079,84,chemin de Linus Torvalds,75002,Paris
+20,Gérard,Louise,1953-02-27,louise.gérard@exemple.fr,0600000080,64,rue de Larry Page,75004,Paris
+19,Valette,Maurice,1950-01-18,maurice.valette@exemple.fr,0600000081,42,rue de Ada Lovelace,75018,Paris
+18,Pineau,Josette,1971-06-09,josette.pineau@exemple.fr,0600000082,58,quai de Vint Cerf,75013,Paris
+17,Cohen,Colette,1977-03-05,colette.cohen@exemple.fr,0600000083,96,rue de Richard Stallman,75019,Paris
+16,Petitjean,Manon,1957-09-23,manon.petitjean@exemple.fr,0600000084,68,place de Jean Bartik,75001,Paris
+15,Thibault,Lucie,1983-06-27,lucie.thibault@exemple.fr,0600000085,27,avenue de Grace Hopper,75007,Paris
+14,Brun,Guillaume,1989-07-13,guillaume.brun@exemple.fr,0600000086,21,boulevard de Barbara Liskov,75019,Paris
+13,Vasseur,Raymond,2001-08-27,raymond.vasseur@exemple.fr,0600000087,15,passage de Tim Berners-Lee,75018,Paris
+12,Torres,Madeleine,1976-07-14,madeleine.torres@exemple.fr,0600000088,6,quai de Vint Cerf,75017,Paris
+11,Bertin,Alix,1933-12-19,alix.bertin@exemple.fr,0600000089,44,allée de Donald Knuth,75008,Paris
+10,Maury,Xavier,1983-09-06,xavier.maury@exemple.fr,0600000090,14,allée de Bjarne Stroustrup,75011,Paris
+9,Bernier,Juliette,1965-04-24,juliette.bernier@exemple.fr,0600000091,90,place de Jean Bartik,75002,Paris
+8,Dupont,Christelle,1941-06-08,christelle.dupont@exemple.fr,0600000092,7,passage de Tim Berners-Lee,75008,Paris
+7,Jacquet,Brigitte,1957-09-17,brigitte.jacquet@exemple.fr,0600000093,58,cours de Claude Shannon,75013,Paris
+6,Nicolas,Lucie,2004-09-28,lucie.nicolas@exemple.fr,0600000094,2,rue d'Alan Turing,75009,Paris
+5,Laine,Corinne,1961-12-07,corinne.laine@exemple.fr,0600000095,6,avenue de Grace Hopper,75002,Paris
+4,Aubry,Inès,1991-03-22,inès.aubry@exemple.fr,0600000096,60,rue de Ada Lovelace,75012,Paris
+3,Dumont,Anastasie,1943-09-29,anastasie.dumont@exemple.fr,0600000097,14,boulevard de Margaret Hamilton,75007,Paris
+2,Guibert,Madeleine,1977-08-17,madeleine.guibert@exemple.fr,0600000098,75,rue de Larry Page,75005,Paris
+1,Laporte,Arnaude,1962-03-30,arnaude.laporte@exemple.fr,0600000099,45,rue de John von Neumann,75016,Paris

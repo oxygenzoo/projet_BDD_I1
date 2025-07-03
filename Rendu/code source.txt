@@ -1,0 +1,77 @@
+CREATE TABLE `salle`.'adherent' (
+	ID_adherent INT PRIMARY KEY auto_increment, -- chaque adhérent a un numéro qui s'implémente à chaque nouveau adhérent
+    Nom VARCHAR(50), -- nom de l'adhérent
+    Prenom VARCHAR(50), -- prénom de l'adhérent
+    Date_naissance DATE, -- date de naissance de l'adhérent
+    Email VARCHAR(50), -- mail de l'adhérent
+    Telephone BIGINT, -- numéro de tel de l'adhérent
+    Num_rue INT, -- numéro de la rue de l'adhérent
+    Nom_rue VARCHAR(100), -- nom de la rue de l'adhérent
+    CP BIGINT, -- code postale de l'adhérent
+    Ville VARCHAR(100) -- ville de l'adhérent
+);
+
+CREATE TABLE `salle`.'coach' (
+	ID_coach INT PRIMARY KEY,
+    ID_adherent INT UNIQUE,
+    Salaire DECIMAL, -- salaire du coach
+    Certification INT, -- certification du coach
+    FOREIGN KEY (ID_adherent) REFERENCES adherent(ID_adherent) -- vu que c'est un héritage, nous la mettons en clé primaire et étrangère
+);
+
+CREATE TABLE `salle`.'abonnement' (
+	ID_abonnement INT PRIMARY KEY auto_increment, -- chaque abonnement à un numéro
+	ID_adherent INT, -- clé étrangère
+	Type ENUM('Mensuel','Trimestriel','Annuel','Employé'), -- le type d'abonnement est compris dans les éléments entre parenthèses
+    Prix DECIMAL, -- prix de l'abonnement
+    Date_début DATE, -- date de début de l'abonnement
+    Date_fin DATE, -- date de fin de l'abonnement
+    Statut_abonnement ENUM('Actif','Inactif'), -- le statut de l'abonnement est compris entre parenthèses et indique si l'adhérent a payé ou non
+    FOREIGN KEY (ID_adherent) REFERENCES adherent(ID_adherent) -- l'adhérent possède un abonnement
+);
+
+CREATE TABLE `salle`.'paiement' (
+	ID_paiement INT PRIMARY KEY auto_increment, -- chaque paiement a un numéro
+	ID_abonnement INT, --clé étrangère
+    Montant DECIMAL, -- le montant du paiement
+    Date_paiment DATE, -- la date du paiement
+    FOREIGN KEY (ID_abonnement) REFERENCES abonnement(ID_abonnement) -- l'abonnement genere un paiement
+);
+
+CREATE TABLE `salle`.'sport' (
+	ID_sport INT PRIMARY KEY auto_increment, -- chaque sport a un numéro, à l'ajout d'un nouvau sport, le numéro s'incremente
+    Nom_sport VARCHAR(50), -- le nom du sport
+    Niveau ENUM('Débutant','Intermediaire','Avancé') -- le niveau de chaque sport
+);
+
+CREATE TABLE `salle`.'creneau' (
+	ID_creneau INT PRIMARY KEY auto_increment, -- chaque créneau a un ID
+    Jour DATE, -- le jour du créneau
+    Heure_debut TIME, -- l'heure du début du créneau
+    Heure_fin TIME -- l'heure de fin du créneau
+);
+
+CREATE TABLE `salle`.'pratique' (
+	ID_adherent INT,
+    ID_sport INT,
+    PRIMARY KEY (ID_sport, ID_adherent),
+    FOREIGN KEY (ID_sport) REFERENCES sport(ID_sport),
+    FOREIGN KEY (ID_adherent) REFERENCES adherent(ID_adherent)
+);
+
+CREATE TABLE `salle`.'dispose' (
+    ID_sport INT,
+    ID_creneau INT,
+    PRIMARY KEY (ID_sport, ID_creneau),
+    FOREIGN KEY (ID_sport) REFERENCES sport(ID_sport),
+    FOREIGN KEY (ID_creneau) REFERENCES creneau(ID_creneau)
+);
+
+CREATE TABLE `salle`.'donne' (
+	ID_sport INT,
+    ID_coach INT,
+    PRIMARY KEY (ID_sport, ID_coach),
+    FOREIGN KEY (ID_sport) REFERENCES sport(ID_sport),
+    FOREIGN KEY (ID_coach) REFERENCES coach(ID_coach)
+);
+
